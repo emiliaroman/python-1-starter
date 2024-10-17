@@ -1,0 +1,1 @@
+Zajęcia z przedmiotu Programowanie w języku Python I.

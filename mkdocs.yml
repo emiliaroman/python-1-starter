@@ -1,0 +1,14 @@
+site_name: Programowanie w języku Python - KGiIS AGH
+
+copyright: Copyright 2024 Jakub Staszel
+
+language: pl
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Zajęcia 2:
+    - Przypisania: docs/zaj2/przypisania.md
+    - Pętle: docs/zaj2/petle.md
