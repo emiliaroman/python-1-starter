@@ -1,0 +1,1 @@
+Python, podstawy konwencji nazewnictwa i z czego to wynika?
