@@ -86,12 +86,12 @@ Iterator to obiekt w Pythonie, który pozwala na sekwencyjne przetwarzanie eleme
 
 Każda pętla `for` działa na iteratorach w tle.
 
-???+ note "Jak działają iteratory?"
+???- note "Jak działają iteratory?"
 
     - Każdy obiekt, który ma metodę `__iter__()` i `__next__()`, jest iteratorem.
     - Metoda `__iter__()` zwraca iterator, a `__next__()` zwraca kolejny element. Gdy elementów zabraknie, zgłaszany jest wyjątek `StopIteration`.
 
-???+ note "Po co nam iteratory?"
+???- note "Po co nam iteratory?"
     - Efektywność pamięciowa: Przetwarzają elementy na bieżąco, nie muszą trzymać całej kolekcji w pamięci.
     - Niekończące się sekwencje: Można tworzyć iteratory, które generują nieskończone sekwencje danych, np. liczby losowe.
 

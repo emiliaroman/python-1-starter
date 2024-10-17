@@ -47,7 +47,7 @@ print(f"Lista a: {a}, lista b: {b}, lista c: {c}")
 
 ```
 
-???+ note "Jaka płytka i głęboka kopia?"
+???- note "Jaka płytka i głęboka kopia?"
     
     **Płytka kopia** tworzy nową instancję obiektu, ale nie kopiuje obiektów wewnętrznych (czyli elementów, do których ten obiekt odnosi się) (np. poprzez `copy.copy()`).
 
@@ -60,7 +60,7 @@ print(f"Lista a: {a}, lista b: {b}, lista c: {c}")
 
 7. Utwórz zmienną `x` oraz `y`, przypisz im wartość `10` poprzez `x = y = 10`. Zwiększ wartość `y` o 1 (np. `y = y + 1`). Wyświetl wartości `x` i `y`, a następnie wyjaśnij, dlaczego modyfikacja `y` nie wpłynęła na wartość `x`. Czy integery są obiektami mutowalnymi?
 
-???+ note "Jakie obiekty mutowalne i niemutowalne?"
+???- note "Jakie obiekty mutowalne i niemutowalne?"
     
     W Pythonie obiekty dzielą się na mutowalne (zmienne) i niemutowalne (niezmienne). Kluczową różnicą między nimi jest to, czy zawartość obiektu może być zmieniona w miejscu (bez tworzenia nowego obiektu) po jego utworzeniu.
 
