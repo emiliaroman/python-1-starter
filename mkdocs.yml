@@ -1,14 +1,23 @@
-site_name: Programowanie w języku Python - KGiIS AGH
+site_name: Programowanie w języku Python
+repo_url: https://github.com/agh-geoinf/python-1-starter
 
-copyright: Copyright 2024 Jakub Staszel
+copyright: Copyright 2024 Jakub Staszel KGiIS AGH
 
 language: pl
 
 theme:
   name: material
 
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.details
+
 nav:
-  - Home: index.md
+  - Strona główna: index.md
   - Zajęcia 2:
     - Przypisania: zaj2/przypisania.md
     - Pętle: zaj2/petle.md
