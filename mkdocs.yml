@@ -10,5 +10,5 @@ theme:
 nav:
   - Home: index.md
   - Zajęcia 2:
-    - Przypisania: docs/zaj2/przypisania.md
-    - Pętle: docs/zaj2/petle.md
+    - Przypisania: zaj2/przypisania.md
+    - Pętle: zaj2/petle.md
