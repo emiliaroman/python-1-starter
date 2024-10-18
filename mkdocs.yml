@@ -7,6 +7,10 @@ language: pl
 
 theme:
   name: material
+  palette:
+    scheme: dracula
+    primary: deep purple
+    accent: deep purple
 
 markdown_extensions:
   - admonition
