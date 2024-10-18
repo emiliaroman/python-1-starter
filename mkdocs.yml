@@ -8,9 +8,10 @@ language: pl
 theme:
   name: material
   palette:
-    scheme: dracula
-    primary: deep purple
-    accent: deep purple
+    scheme: 'auto'
+    toggle:
+      icon: material/weather-sunny
+      name: Switch theme
 
 markdown_extensions:
   - admonition
