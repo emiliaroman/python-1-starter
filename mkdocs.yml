@@ -8,7 +8,7 @@ language: pl
 theme:
   name: material
   palette:
-    scheme: 'auto'
+    scheme: 'dark'
     toggle:
       icon: material/weather-sunny
       name: Switch theme
