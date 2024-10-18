@@ -3,9 +3,13 @@
 Funkcje pozwalają na organizowanie i strukturyzowanie kodu w logiczne bloki, które można wielokrotnie wywoływać. Dzięki funkcjom możemy **uprościć programy**, **zmniejszyć ilość powtarzającego się kodu**, a także sprawić, że nasze rozwiązania staną się bardziej **modularne** i **łatwiejsze do utrzymania**.
 
 Zalety używania funkcji:
+
 - Modularność: Dzielisz duży problem na mniejsze części, które są łatwiejsze do zarządzania.
+
 - Ponowne wykorzystanie: Funkcję można wywoływać wielokrotnie w różnych miejscach programu.
+
 - Łatwiejsze utrzymanie: Zmiana logiki w jednym miejscu (w funkcji) automatycznie wprowadza zmiany w całym programie.
+
 - Czytelność: Funkcje pomagają tworzyć bardziej zrozumiały i uporządkowany kod.
 
 ```python
@@ -22,22 +26,26 @@ print(f"Wygenerowana liczba: {liczba}")
 ```
 
 Trzy kluczowe elementy każdej funkcji:
+
 1. Słowo kluczowe służace definiowaniu funkcji - `def`
+
 2. Argumenty: definiowanie i podawane wewnątrz `()`
+
 3. Zwracane wartości - słowo kluczowe `return`
 
 ### Zadania
 1. Napisz funkcję `zmien_wartosc(arg)`, która przyjmuje jeden argument i próbuje zmodyfikować ten argument w różny sposób w zależności od tego, czy jest on niemutowalny (w tym przypadku integerem) czy mutowalny (w tym przypadku listą). 
 
-- Jeśli jest listą, wykonaj `arg[0] = 'kalafior'`. 
-- Jeśli jest integerem, wykonaj `arg = 65482652`.
+    - Jeśli jest listą, wykonaj `arg[0] = 'kalafior'`. 
+
+    - Jeśli jest integerem, wykonaj `arg = 65482652`.
 
 Wypisz przykłady dla obu przypadków, wypisz wartości przed i po wykonaniu funkcji. Jak się zachowują te obiekty? 
 
-!!! tip
-Warto skorzystać z funkcji `isinstance()`.
+!!! tip 
+    Warto skorzystać z funkcji `isinstance()`.
 
-???- note "Teoria: mutowalne i niemutowalne obiekty w funkcjach
+???- note "Teoria: mutowalne i niemutowalne obiekty w funkcjach"
 
     Kiedy zmienne są przekazywane do funkcji jako argumenty, Python nie tworzy ich kopii, lecz przekazuje referencję do oryginalnego obiektu. W związku z tym sposób, w jaki te obiekty zachowują się wewnątrz funkcji, zależy od ich typu – mutowalne lub niemutowalne.
 
@@ -120,11 +128,15 @@ przedstaw_sie(imie="Jan", wiek=30, miasto="Kraków")
 ### Zadania
 2. Napisz funkcję `zamowienie_produktu`, która przyjmuje jeden obowiązkowy argument pozycyjny `nazwa_produktu` i dwa obowiązkowe argumenty nazwane: `cena` i `ilosc`. Funkcja powinna zwracać tekst podsumowujący zamówienie, zawierające nazwę produktu, łączną cenę (cena * ilość) oraz ilość zamówionego produktu. 
 
-- Stwórz pustą listę, do której wstawisz wartości zwracane przez funkcję dla 3 różnych produktów. 
-- Przeiteruj po wypełnionej liście, wyświetl teksty. 
-- Zmodyfikuj funkcję tak, żeby oprócz tekstu podsumowującego zwracała także wartość zamówienia. 
-- Na koniec wyświetl sumaryczną wartość zamówień (sumę z każdego zamówionego produktu). 
-- Dodaj wartość domyślną dla argumentu `ilosc` równą 1.
+    - Stwórz pustą listę, do której wstawisz wartości zwracane przez funkcję dla 3 różnych produktów.
+
+    - Przeiteruj po wypełnionej liście, wyświetl teksty.
+
+    - Zmodyfikuj funkcję tak, żeby oprócz tekstu podsumowującego zwracała także wartość zamówienia. 
+
+    - Na koniec wyświetl sumaryczną wartość zamówień (sumę z każdego zamówionego produktu). 
+
+    - Dodaj wartość domyślną dla argumentu `ilosc` równą 1.
 
 !!! warning "Ważna informacja"
 
@@ -135,6 +147,7 @@ przedstaw_sie(imie="Jan", wiek=30, miasto="Kraków")
     ```
 
 3. Napisz funkcję `stworz_raport`, która przyjmuje dowolną liczbę argumentów pozycyjnych (`*args`) i nazwanych (`**kwargs`). Argumenty pozycyjne powinny reprezentować numery ID produktów, a argumenty nazwane - informacje o tych produktach (np. nazwa, cena). Funkcja powinna tworzyć i wyświetlać raport, w którym dla każdego ID produktu podane są szczegółowe informacje na jego temat. 
+
 Wywołanie funkcji powinno wyglądać następująco:
 
 ```python
